@@ -6,7 +6,7 @@ jobs:
  run-github-actions:
   runs-on: ubuntu-latest
   steps: 
-    - name: Simple Java Actions
+    - name: Simple Java Action
       id: greet
       uses: arsrinivasan/udemy_github_actions@main
       with:
