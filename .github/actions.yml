@@ -1,0 +1,16 @@
+name: Actions Workflow
+
+on: [push]
+
+jobs:
+ run-github-actions:
+  runs-on: ubuntu-latest
+  steps: 
+    - name: Simple Java Action
+      id: greet
+      uses: arsrinivasan/udemy_github_actions@main
+      with:
+        who-to-greet: John
+    - name: Log greeting time
+      run: echo "{{steps.greet.output.time}}"
+  
