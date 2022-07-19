@@ -8,7 +8,7 @@ jobs:
   steps: 
     - name: Simple Java Actions
       id: greet
-      uses: arsrinivasan/udemy_github_actions@master
+      uses: arsrinivasan/udemy_github_actions@main
       with:
         who-to-greet: John
     - name: Log greeting time
