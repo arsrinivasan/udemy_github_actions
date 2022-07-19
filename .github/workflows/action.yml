@@ -7,7 +7,7 @@ jobs:
   runs-on: ubuntu-latest
   steps: 
     - name: First checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@main
     - name: Simple Java Action
       id: greet
       uses: arsrinivasan/udemy_github_actions@main
