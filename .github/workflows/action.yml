@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@main
     - name: Simple Java Action
       id: greet
-      uses: arsrinivasan/udemy_github_actions@main
+      uses: arsrinivasan/udemy_github_actions/.github/workflows@main
       with:
         who-to-greet: John
     - name: Log greeting time
