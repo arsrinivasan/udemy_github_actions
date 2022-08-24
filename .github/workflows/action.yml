@@ -13,5 +13,5 @@ jobs:
       uses: ./.github/workflows
       with:
         who-to-greet: John
-    - name: Log greeting time
+    - name: Log greetings time
       run: echo "{{steps.greet.output.time}}"
